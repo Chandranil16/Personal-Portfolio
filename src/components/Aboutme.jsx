@@ -1,5 +1,5 @@
 import React from "react";
-
+import profilepic from '../assets/cropped_circle_image.png'
 function AboutMe() {
   return (
     <section id="about" className="mb-8">
@@ -18,8 +18,8 @@ function AboutMe() {
       <div className="flex flex-col md:flex-row items-center rounded-xl bg-gray-300 p-8 shadow-lg w-full min-h-[400px] transition-transform duration-300 hover:shadow-xl hover:shadow-blue-500/50 hover:-translate-y-2">
         {/* Professional Photo */}
         <img
-          src="../src/assets/cropped_circle_image.png"
-          alt="Profile"
+          src={profilepic}
+          alt="My Profile"
           className="w-48 h-48 md:w-60 md:h-60 rounded-full mb-4 md:mb-0 md:mr-8 flex-shrink-0 transition-transform duration-300 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50"
         />
 
