@@ -25,7 +25,7 @@ const projects = [
     ],
     tools: ["React.js", "Tailwind CSS"],
     outcome: "Enhanced my web development skills and created a professional online presence.",
-    github: "https://github.com/yourusername/portfolio-website"
+    github: "https://github.com/Chandranil16/Personal-Portfolio"
   },
   {
     title: "Smart-ATS-Resume-Checker",
