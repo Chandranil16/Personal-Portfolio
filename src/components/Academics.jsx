@@ -2,12 +2,12 @@ import React from "react";
 
 function Academics() {
   const marksheets = [
-    { id: 1, name: "Semester 1", file: "/marksheets/FIRST SEMESTER MARKSHEET.pdf" },
-    { id: 2, name: "Semester 2", file: "/marksheets/SECOND SEMESTER MARKSHEET.pdf" },
-    { id: 3, name: "Semester 3", file: "/marksheets/THIRD SEMESTER MARKSHEET.pdf" },
-    { id: 4, name: "Semester 4", file: "/marksheets/FOURTH SEMESTER MARKSHEET.pdf" },
-    { id: 5, name: "Semester 5", file: "/marksheets/FIFTH SEMESTER MARKSHEET.pdf" },
-    { id: 6, name: "Semester 6", file: "/marksheets/SIXTH SEMESTER MARKSHEET.pdf" }
+    { id: 1, name: "Semester 1", file: "/marksheets/FIRST_SEMESTER_MARKSHEET.pdf" },
+    { id: 2, name: "Semester 2", file: "/marksheets/SECOND_SEMESTER_MARKSHEET.pdf" },
+    { id: 3, name: "Semester 3", file: "/marksheets/THIRD_SEMESTER_MARKSHEET.pdf" },
+    { id: 4, name: "Semester 4", file: "/marksheets/FOURTH_SEMESTER_MARKSHEET.pdf" },
+    { id: 5, name: "Semester 5", file: "/marksheets/FIFTH_SEMESTER_MARKSHEET.pdf" },
+    { id: 6, name: "Semester 6", file: "/marksheets/SIXTH_SEMESTER_MARKSHEET.pdf" }
   ];
 
   // Open PDF in new tab
