@@ -11,7 +11,7 @@ const Resume = () => {
         My resume
       </h2>
       <a
-        href="/marksheets/Chandranil_Adhikary_resume.pdf"
+        href="/marksheets/Chandranil_Adhikary.pdf"
         download
         target="_blank"
         rel="noopener noreferrer"
