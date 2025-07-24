@@ -1,63 +1,97 @@
 import React from "react";
+import { FaSchool, FaUniversity, FaGraduationCap } from "react-icons/fa";
+
+const academicsData = [
+  {
+    id: 1,
+    title: "Class X",
+    institution: "ST. Stephen’s School, Budge Budge, Kolkata",
+    year: "2007-2020",
+    percentage: "87.4%",
+    icon: <FaSchool className="text-blue-600 text-2xl" />,
+  },
+  {
+    id: 2,
+    title: "Class XII",
+    institution: "ST. Stephen’s School, Budge Budge, Kolkata",
+    year: "2020-2022",
+    percentage: "89%",
+    icon: <FaUniversity className="text-violet-600 text-2xl" />,
+  },
+  {
+    id: 3,
+    title: "B.Tech in CSE(Artificial Intelligence)",
+    institution: "Budge Budge Institute of Technology, Kolkata",
+    year: "2022-2026",
+    cgpa: "8.08",
+    icon: <FaGraduationCap className="text-indigo-600 text-2xl" />,
+  },
+];
 
 function Academics() {
-  const marksheets = [
-    { id: 1, name: "Semester 1", file: "/marksheets/FIRST_SEMESTER_MARKSHEET.pdf" },
-    { id: 2, name: "Semester 2", file: "/marksheets/SECOND_SEMESTER_MARKSHEET.pdf" },
-    { id: 3, name: "Semester 3", file: "/marksheets/THIRD_SEMESTER_MARKSHEET.pdf" },
-    { id: 4, name: "Semester 4", file: "/marksheets/FOURTH_SEMESTER_MARKSHEET.pdf" },
-    { id: 5, name: "Semester 5", file: "/marksheets/FIFTH_SEMESTER_MARKSHEET.pdf" },
-    { id: 6, name: "Semester 6", file: "/marksheets/SIXTH_SEMESTER_MARKSHEET.pdf" }
-  ];
-
-  // Open PDF in new tab
-  const openMarksheet = (file) => {
-    window.open(file, "_blank", "noopener,noreferrer");
-  };
-
   return (
-    <section id="academics" className="mb-8">
-      <h2 className="text-xl md:text-2xl font-bold mb-4 flex items-center justify-center text-center">
-        <span
-          className="mr-2 animate-spin"
-          role="img"
-          aria-label="degree icon"
-        >
+    <section id="academics" className="mb-8 px-2">
+      <h2 className="text-xl md:text-2xl font-bold mb-8 flex items-center justify-center text-center">
+        <span className="mr-2 animate-spin" role="img" aria-label="degree icon">
           🎓
         </span>
         <span className="bg-gradient-to-r from-violet-600 via-blue-500 to-indigo-600 bg-clip-text text-transparent">
           Academics
         </span>
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ">
-        {marksheets.map((marksheet) => (
-          <div
-            key={marksheet.id}
-            className="border p-4 rounded-xl shadow bg-gray-300 hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 transform hover:-translate-y-2"
-          >
-            <h3 className="text-lg font-semibold">{marksheet.name}</h3>
-            <button
-              onClick={() => openMarksheet(marksheet.file)}
-              className="text-blue-500 hover:underline mt-2"
+      <div className="relative max-w-2xl mx-auto">
+        {/* Vertical line */}
+        <div className="absolute left-6 top-0 w-1 h-full bg-gradient-to-b from-blue-400 via-violet-400 to-indigo-400 opacity-40 rounded-full z-0"></div>
+        <div className="flex flex-col gap-10">
+          {academicsData.map((item, idx) => (
+            <div
+              key={item.id}
+              className="relative flex items-start group"
+              style={{ animation: `fadeInUp 0.6s ${idx * 0.2 + 0.2}s both` }}
             >
-              View Marksheet
-            </button>
-            <br />
-            <a
-              href={marksheet.file}
-              download
-              className="text-green-500 hover:underline mt-2"
-            >
-              Download PDF
-            </a>
-          </div>
-        ))}
+              {/* Timeline icon */}
+              <div className="z-10">
+                <div className="flex items-center justify-center w-12 h-12 bg-white border-4 border-blue-200 rounded-full shadow-lg group-hover:scale-110 transition-transform duration-300">
+                  {item.icon}
+                </div>
+              </div>
+              {/* Card */}
+              <div className="ml-8 flex-1 bg-gray-300 rounded-xl shadow-lg border border-blue-100 p-5 transition-transform duration-300 hover:shadow-xl hover:shadow-blue-500/50 hover:-translate-y-2">
+                <h3 className="text-lg font-semibold flex items-center gap-2">
+                  {item.title}
+                  <span className="text-xs text-gray-900 font-bold">
+                    ({item.year})
+                  </span>
+                </h3>
+                <p className="text-sm text-gray-700 font-bold mb-1">{item.institution}</p>
+                {item.percentage && (
+                  <p className="text-indigo-700 font-bold">
+                    Percentage:{" "}
+                    <span className="font-mono">{item.percentage}</span>
+                  </p>
+                )}
+
+                {item.cgpa && (
+                  <p className="text-indigo-700 font-bold">
+                    CGPA:{" "}
+                    <span className="font-mono">{item.cgpa}</span>
+                  </p>
+                )}
+                
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
       <style>
         {`
+          @keyframes fadeInUp {
+            0% { opacity: 0; transform: translateY(40px);}
+            100% { opacity: 1; transform: translateY(0);}
+          }
           @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+            0% { transform: rotate(0deg);}
+            100% { transform: rotate(360deg);}
           }
           .animate-spin {
             display: inline-block;

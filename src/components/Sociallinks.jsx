@@ -31,7 +31,8 @@ return (
                     href={social.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex flex-col items-center bg-gray-300 rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 px-6 py-4 w-64 group border border-gray-300"
+                    className="flex flex-col items-center bg-gray-300 rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 px-6 py-4 w-64 group border border-gray-300
+      hover:border-blue-600  hover:scale-105 hover:ring-2 hover:ring-blue-400/40"
                 >
                     <img
                         src={social.img}

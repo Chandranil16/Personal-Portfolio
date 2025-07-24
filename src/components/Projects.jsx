@@ -63,7 +63,8 @@ const Projects = () => {
         {projects.map((project, idx) => (
           <div
             key={idx}
-            className="bg-gray-300 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col p-5 min-h-[340px] border border-black"
+            className="bg-gray-300 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col p-5 min-h-[340px] border border-black
+              hover:border-blue-600 hover:scale-105 hover:ring-2 hover:ring-blue-400/40"
           >
             <div className="mb-1 flex items-center justify-between">
               <h3 className="text-lg md:text-xl font-semibold">
