@@ -15,7 +15,8 @@ function Home() {
           >
             👋
           </span>
-          <h2 className="text-xl sm:text-4xl md:text-5xl font-extrabold mb-3 tracking-tight bg-gradient-to-r from-violet-600 via-blue-500 to-indigo-600 bg-clip-text text-transparent whitespace-nowrap">
+          {/* Added extra bottom padding to prevent clipping */}
+          <h2 className="text-xl sm:text-4xl md:text-5xl font-extrabold mb-3 tracking-tight bg-gradient-to-r from-violet-600 via-blue-500 to-indigo-600 bg-clip-text text-transparent whitespace-nowrap" style={{ paddingBottom: "0.25em" }}>
             Welcome to My Portfolio
           </h2>
         </div>
