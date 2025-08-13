@@ -68,7 +68,7 @@ export default function ContactDialog() {
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="flex flex-col md:flex-row gap-6">
             <input
-              className="flex-1 px-4 py-3 rounded-xl bg-white/30 dark:bg-slate-800/30 border border-violet-300 dark:border-violet-700 focus:outline-none focus:ring-2 focus:ring-violet-400 placeholder:text-violet-500 dark:placeholder:text-violet-900 text-violet-700 dark:text-violet shadow-sm transition"
+              className="flex-1 px-4 py-3 rounded-xl bg-white/30 dark:bg-slate-800/30 border border-violet-300 dark:border-violet-700 focus:outline-none focus:ring-2 focus:ring-violet-400 placeholder:text-violet-500 dark:placeholder:text-violet-900 text-violet-700 dark:text-black shadow-sm transition"
               type="text"
               name="name"
               placeholder="Your Name"
@@ -78,7 +78,7 @@ export default function ContactDialog() {
               autoComplete="off"
             />
             <input
-              className="flex-1 px-4 py-3 rounded-xl bg-white/30 dark:bg-slate-800/30 border border-violet-300 dark:border-violet-700 focus:outline-none focus:ring-2 focus:ring-violet-400 placeholder:text-violet-700 dark:placeholder:text-violet-900 text-violet-900 dark:text-violet shadow-sm transition"
+              className="flex-1 px-4 py-3 rounded-xl bg-white/30 dark:bg-slate-800/30 border border-violet-300 dark:border-violet-700 focus:outline-none focus:ring-2 focus:ring-violet-400 placeholder:text-violet-700 dark:placeholder:text-violet-900 text-violet-900 dark:text-black shadow-sm transition"
               type="email"
               name="email"
               placeholder="Your Email"
@@ -89,7 +89,7 @@ export default function ContactDialog() {
             />
           </div>
           <input
-            className="w-full px-4 py-3 rounded-xl bg-white/30 dark:bg-slate-800/30 border border-violet-300 dark:border-violet-700 focus:outline-none focus:ring-2 focus:ring-violet-400 placeholder:text-violet-700 dark:placeholder:text-violet-900 text-violet-900 dark:text-violet shadow-sm transition"
+            className="w-full px-4 py-3 rounded-xl bg-white/30 dark:bg-slate-800/30 border border-violet-300 dark:border-violet-700 focus:outline-none focus:ring-2 focus:ring-violet-400 placeholder:text-violet-700 dark:placeholder:text-violet-900 text-violet-900 dark:text-black shadow-sm transition"
             type="text"
             name="subject"
             placeholder="Subject"
@@ -99,7 +99,7 @@ export default function ContactDialog() {
             autoComplete="off"
           />
           <textarea
-            className="w-full px-4 py-3 rounded-xl bg-white/30 dark:bg-slate-800/30 border border-violet-300 dark:border-violet-700 focus:outline-none focus:ring-2 focus:ring-violet-400 placeholder:text-violet-700 dark:placeholder:text-violet-900 text-violet-900 dark:text-violet shadow-sm transition resize-none"
+            className="w-full px-4 py-3 rounded-xl bg-white/30 dark:bg-slate-800/30 border border-violet-300 dark:border-violet-700 focus:outline-none focus:ring-2 focus:ring-violet-400 placeholder:text-violet-700 dark:placeholder:text-violet-900 text-violet-900 dark:text-black shadow-sm transition resize-none"
             name="message"
             placeholder="Your Message"
             rows={5}
