@@ -1,4 +1,5 @@
 import React from "react";
+import { Toaster } from "react-hot-toast";
 import Navigationbar from "./components/NavigationBar";
 import Home from "./components/Home";
 import AboutMe from "./components/Aboutme";
@@ -7,15 +8,18 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Resume from "./components/Resume";
 import Sociallinks from "./components/Sociallinks";
+import ContactDialog from "./components/ContactDialog";
 import './index.css';
 
 function App() {
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br from-violet-500 via-blue-100 to-white bg-fixed">
-      <div className="relative z-10">
-        <Navigationbar />
-        <main className="max-w-5xl mx-auto px-2 sm:px-4">
-          <section className="mb-10 transition-all duration-500">
+    <>
+      <Toaster position="top-center" />
+      <div className="min-h-screen w-full bg-gradient-to-br from-violet-500 via-blue-100 to-white bg-fixed">
+        <div className="relative z-10">
+          <Navigationbar />
+          <main className="max-w-5xl mx-auto px-2 sm:px-4">
+            <section className="mb-10 transition-all duration-500">
             <Home />
           </section>
           <SectionCard>
@@ -36,6 +40,9 @@ function App() {
           <SectionCard>
             <Resume />
           </SectionCard>
+          <SectionCard>
+            <ContactDialog />
+          </SectionCard>
         </main>
       </div>
       {/* Parallax effect */}
@@ -43,6 +50,7 @@ function App() {
         <div className="w-full h-full bg-gradient-to-br from-violet-400/30 via-blue-200/20 to-white" style={{backgroundAttachment: 'fixed'}} />
       </div>
     </div>
+    </>
   );
 }
 

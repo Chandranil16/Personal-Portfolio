@@ -77,6 +77,15 @@ function NavigationBar() {
           Resume
         </a>
       </li>
+      <li>
+        <a
+          href="#contact"
+          onClick={(e) => handleScroll(e, "#contact")}
+          className="hover:text-white hover:bg-blue-500/80 hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 px-2 py-1 rounded"
+        >
+          Contact
+        </a>
+      </li>
     </>
   );
 
@@ -101,7 +110,12 @@ function NavigationBar() {
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M4 6h16M4 12h16M4 18h16"
+            />
           </svg>
         </button>
         {/* Dropdown Menu */}
@@ -109,7 +123,8 @@ function NavigationBar() {
           <ul
             className="absolute left-0 right-0 top-16 mx-4 bg-gray-300/95 backdrop-blur-md rounded shadow-lg flex flex-col items-center space-y-2 py-4 z-50 animate-dropdown"
             style={{
-              transition: "opacity 0.4s ease, transform 0.4s cubic-bezier(0.4,0,0.2,1)",
+              transition:
+                "opacity 0.4s ease, transform 0.4s cubic-bezier(0.4,0,0.2,1)",
               opacity: menuOpen ? 1 : 0,
               transform: menuOpen ? "scaleY(1)" : "scaleY(0.95)",
               transformOrigin: "top",

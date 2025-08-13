@@ -57,7 +57,7 @@ function AboutMe() {
           <p className="text-lg md:text-xl mt-4">
             <span className="font-semibold text-indigo-700">Objectives:</span>{" "}
             <span className="font-semibold text-black">
-              To innovate and make a career in the technology industry by building impactful software solutions
+              My goal is to acquire the necessary skills and gain experience as a fresher, to prepare myself for a successful career.
             </span>
           </p>
           <p className="text-lg md:text-xl mt-4">
