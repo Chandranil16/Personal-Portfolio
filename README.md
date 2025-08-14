@@ -9,8 +9,9 @@ This is my personal portfolio website built using **ReactJS** and **Tailwind CSS
 - **Academics**: Educational qualifications and timeline
 - **Projects**: List of key projects with descriptions and links
 - **Skills**: Technologies and tools I work with
-- **Social Links**: social media platform links such as github, linkedin
+- **Social Links**: social media platform links such as github, linkedin, etc
 - **Resume**: Downloadable resume link
+- **Contact**: Contact form to collaborate for work or other opportunities
 
 ## 🚀 Tech Stack
 
