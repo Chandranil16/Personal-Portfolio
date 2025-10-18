@@ -11,8 +11,7 @@ const projects = [
     features: [
       "User authentication & registration",
       "CRUD operations on Private notes",
-      "Clean, Mobile-responsive UI design",
-      "Bcrypt for password hashing & JWT for session management"
+      "Clean, Mobile-responsive UI design"
     ],
     github: "https://github.com/Chandranil16/Mynotes_app",
   },
@@ -54,24 +53,24 @@ const projects = [
       "Conversational chatbot",
       "Personalized ayurvedic health advice such as causes, symptoms, treatments, remedies, diet, and lifestyle",
       "Protected routes & chat history",
-      "Responsive UI design",
-      "Bcrypt for password hashing & JWT for session management"
+      "Responsive UI design"
     ],
     github: "https://github.com/Chandranil16/Nirogya-chatbot",
   },
   {
-    title: "ColdMailGenerator",
+    title: "DevMate",
     description: [
-      "Built an AI-powered cold email generator.",
+      "Built an intelligent, AI-powered instant code reviewer that analyzes any given code.",
     ],
-    tools: ["LangChain", "ChromaDB", "Streamlit", "LLaMA 3.3-70B", "GroqCloud API"],
+    tools: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "gemini-2.5-flash for few-shot prompting"],
     features: [
-      "AI-powered email generation",
-      "Semantic search and context storage using vector database",
-      "User-friendly interface",
-      "Personalized content"
+      "AI-Powered Code Review",
+      "Code Improvements and Copy Feature",
+      "Built-in Code Editor",
+      "Responsive UI design & Resizable Layout",
+      "Ensures context-aware and high-quality code reviews"
     ],
-    github: "https://github.com/Chandranil16/ColdMailGenerator",
+    github: "https://github.com/Chandranil16/DevMate",
   },
   {
     title: "Innov8_ZennVita",

@@ -18,7 +18,7 @@ function NavigationBar() {
         <a
           href="#home"
           onClick={(e) => handleScroll(e, "#home")}
-          className="hover:text-white hover:bg-blue-500/80 hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 px-2 py-1 rounded"
+          className="hover:text-white hover:bg-indigo-500/80 hover:shadow-lg hover:shadow-indigo-500/50 transition-all duration-300 px-2 py-1 rounded"
         >
           Home
         </a>
@@ -27,16 +27,16 @@ function NavigationBar() {
         <a
           href="#about"
           onClick={(e) => handleScroll(e, "#about")}
-          className="hover:text-white hover:bg-blue-500/80 hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 px-2 py-1 rounded"
+          className="hover:text-white hover:bg-indigo-500/80 hover:shadow-lg hover:shadow-indigo-500/50 transition-all duration-300 px-2 py-1 rounded"
         >
-          About Me
+          About
         </a>
       </li>
       <li>
         <a
           href="#academics"
           onClick={(e) => handleScroll(e, "#academics")}
-          className="hover:text-white hover:bg-blue-500/80 hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 px-2 py-1 rounded"
+          className="hover:text-white hover:bg-indigo-500/80 hover:shadow-lg hover:shadow-indigo-500/50 transition-all duration-300 px-2 py-1 rounded"
         >
           Academics
         </a>
@@ -45,7 +45,7 @@ function NavigationBar() {
         <a
           href="#projects"
           onClick={(e) => handleScroll(e, "#projects")}
-          className="hover:text-white hover:bg-blue-500/80 hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 px-2 py-1 rounded"
+          className="hover:text-white hover:bg-indigo-500/80 hover:shadow-lg hover:shadow-indigo-500/50 transition-all duration-300 px-2 py-1 rounded"
         >
           Projects
         </a>
@@ -54,7 +54,7 @@ function NavigationBar() {
         <a
           href="#skills"
           onClick={(e) => handleScroll(e, "#skills")}
-          className="hover:text-white hover:bg-blue-500/80 hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 px-2 py-1 rounded"
+          className="hover:text-white hover:bg-indigo-500/80 hover:shadow-lg hover:shadow-indigo-500/50 transition-all duration-300 px-2 py-1 rounded"
         >
           Skills
         </a>
@@ -63,16 +63,16 @@ function NavigationBar() {
         <a
           href="#sociallinks"
           onClick={(e) => handleScroll(e, "#sociallinks")}
-          className="hover:text-white hover:bg-blue-500/80 hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 px-2 py-1 rounded"
+          className="hover:text-white hover:bg-indigo-500/80 hover:shadow-lg hover:shadow-indigo-500/50 transition-all duration-300 px-2 py-1 rounded"
         >
-          Social Links
+          Socials
         </a>
       </li>
       <li>
         <a
           href="#resume"
           onClick={(e) => handleScroll(e, "#resume")}
-          className="hover:text-white hover:bg-blue-500/80 hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 px-2 py-1 rounded"
+          className="hover:text-white hover:bg-indigo-500/80 hover:shadow-lg hover:shadow-indigo-500/50 transition-all duration-300 px-2 py-1 rounded"
         >
           Resume
         </a>
@@ -81,7 +81,7 @@ function NavigationBar() {
         <a
           href="#contact"
           onClick={(e) => handleScroll(e, "#contact")}
-          className="hover:text-white hover:bg-blue-500/80 hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 px-2 py-1 rounded"
+          className="hover:text-white hover:bg-indigo-500/80 hover:shadow-lg hover:shadow-indigo-500/50 transition-all duration-300 px-2 py-1 rounded"
         >
           Contact
         </a>

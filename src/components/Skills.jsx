@@ -15,7 +15,7 @@ function Skills() {
       items: [
         { name: "HTML", description: "Advanced", level: 80 },
         { name: "CSS", description: "Advanced", level: 80 },
-        { name: "React.js", description: "Intermediate", level: 60 },
+        { name: "React.js", description: "Intermediate", level: 70 },
         { name: "Node.js", description: "Intermediate", level: 60 },
         { name: "Express.js", description: "Intermediate", level: 60 },
         { name: "Tailwind CSS", description: "Advanced", level: 80 },

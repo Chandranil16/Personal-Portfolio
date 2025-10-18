@@ -22,7 +22,7 @@ function Home() {
         </div>
         
         <p className="text-base sm:text-lg md:text-xl text-gray-700 font-medium text-center mt-2 animate-slide-up">
-          Explore the sections below to learn more about me, my education, projects, skills, and connections
+          Explore the sections below to learn more about me, my education, projects, skills, and much more!
         </p>
       </div>
       <style>

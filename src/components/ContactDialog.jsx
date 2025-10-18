@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import toast from "react-hot-toast";
 import { FaEnvelopeOpenText } from "react-icons/fa";
 
-const WEB3FORMS_ACCESS_KEY = "6fc6e33d-199d-41d8-b097-3154205bf1c1"; // Replace with your Web3Forms access key
+const WEB3FORMS_ACCESS_KEY = "6fc6e33d-199d-41d8-b097-3154205bf1c1"; //  Web3Forms access key
 
 export default function ContactDialog() {
   const [form, setForm] = useState({
