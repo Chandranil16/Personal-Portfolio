@@ -7,7 +7,8 @@ function Skills() {
       items: [
         { name: "JavaScript", description: "Intermediate", level: 60 },
         { name: "Python", description: "Intermediate", level: 60 },
-        { name: "Java", description: "Intermediate", level: 60 }
+        { name: "Java", description: "Intermediate", level: 60 },
+        { name: "SQL", description: "Beginner", level: 30 }
       ],
     },
     {
@@ -31,7 +32,6 @@ function Skills() {
     {
       category: "Databases",
       items: [
-        { name: "Oracle", description: "Beginner", level: 30 },
         { name: "MongoDB", description: "Intermediate", level: 60 },
       ],
     },
