@@ -10,7 +10,7 @@ This is my personal portfolio website built using **ReactJS** and **Tailwind CSS
 - **Projects**: List of key projects with descriptions and links
 - **Skills**: Technologies and tools I work with
 - **Social Links**: social media platform links such as github, linkedin, etc
-- **Resume**: Downloadable resume link
+- **Resume**: View my latest resume
 - **Contact**: Contact form to collaborate for work or other opportunities
 
 ## 🚀 Tech Stack
