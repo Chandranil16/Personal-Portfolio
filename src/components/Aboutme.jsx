@@ -6,12 +6,8 @@ function AboutMe() {
   return (
     <section id="about" className="mb-8 md:mb-12 px-2 sm:px-4">
       {/* Consistent Header Style */}
-       <h2 className="text-xl md:text-2xl font-semibold mb-4 flex items-center justify-center text-center">
-        <span
-          className="mr-2 animate-bounce"
-          role="img"
-          aria-label="user icon"
-        >
+      <h2 className="text-xl md:text-2xl font-semibold mb-4 flex items-center justify-center text-center">
+        <span className="mr-2 animate-bounce" role="img" aria-label="user icon">
           👤
         </span>
         <span className="bg-gradient-to-r from-violet-600 via-blue-500 to-indigo-600 bg-clip-text text-transparent">
@@ -34,9 +30,9 @@ function AboutMe() {
               Chandranil Adhikary
             </h3>
             <p className="text-sm sm:text-base md:text-lg font-semibold text-gray-800 mb-2 sm:mb-3">
-              Student || Full-Stack Developer 
+              Student || Full-Stack Developer
             </p>
-            
+
             {/* Contact Info */}
             <div className="flex flex-col sm:flex-row sm:flex-wrap gap-2 sm:gap-3 text-xs sm:text-sm font-semibold text-gray-700 mb-3 items-center md:items-start justify-center md:justify-start">
               <span className="flex items-center gap-1">
@@ -62,7 +58,9 @@ function AboutMe() {
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
-                <span className="break-all">chandranil.adhikary16@gmail.com</span>
+                <span className="break-all">
+                  chandranil.adhikary16@gmail.com
+                </span>
               </span>
               <span className="flex items-center gap-1">
                 <svg
@@ -123,15 +121,16 @@ function AboutMe() {
           </p>
 
           <p className="font-medium">
-            I am currently seeking internships and full-time opportunities to apply my skills, gain industry exposure, and contribute to innovative software development.
+            I am currently seeking internships and full-time opportunities to
+            apply my skills, gain industry exposure, and contribute to
+            innovative software development.
           </p>
-          
+
           <p className="font-medium">
             <strong className="text-indigo-700">What drives me:</strong> I'm
-            passionate about coding, hackathons, exploring cutting-edge technologies, and
-            building practical solutions that make a difference. Whether it's
-            working on AI applications, web development, or tackling complex
-            algorithms, I approach each project with enthusiasm and dedication
+            passionate about coding, hackathons, exploring cutting-edge
+            technologies, and building practical solutions that make a
+            difference. I approach each project with enthusiasm and dedication
             to excellence.
           </p>
         </div>

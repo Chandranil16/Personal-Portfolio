@@ -62,8 +62,7 @@ export default function ContactDialog() {
       </h2>
       <div className="bg-gradient-to-br from-violet-100/70 via-blue-100/60 to-white/80 dark:from-violet-200/20 dark:via-blue-200/20 dark:to-slate-200/20 rounded-3xl shadow-2xl p-8 w-full max-w-2xl mx-auto animate-fade-in">
         <p className="text-base text-gray-700 dark:text-gray-700 text-center max-w-lg mx-auto mb-8">
-          Have any questions about projects, or just want to collaborate for work or any opportunities? Fill out the form
-          below and I'll get back to you!
+          Open to work for internships and full-time opportunities. Fill out the form below and I'll get back to you!
         </p>
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="flex flex-col md:flex-row gap-6">
