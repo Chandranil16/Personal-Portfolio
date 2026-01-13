@@ -145,7 +145,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               className="mt-auto inline-block text-blue-600 hover:underline font-semibold text-sm transition-colors duration-200"
             >
-              View GitHub Repo &rarr;
+            GitHub link &rarr;
             </a>
           </div>
         ))}
