@@ -3,85 +3,67 @@ import { FaProjectDiagram } from "react-icons/fa";
 
 const projects = [
   {
-    title: "Mynotes_app",
+    title: "DevMate",
     description: [
-      "Built a secure full-stack Notes App using MERN stack.",
+      "Built an intelligent, AI-powered instant code reviewer that analyzes any given code.",
     ],
-    tools: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JWT", "bcrypt"],
+    tools: [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "gemini-2.5-flash for few-shot prompting",
+    ],
     features: [
-      "User authentication & registration",
-      "CRUD operations on Private notes",
-      "Clean, Mobile-responsive UI design"
+      "AI-Powered Code Review",
+      "Code Improvements and Copy Feature",
+      "Built-in Code Editor",
+      "Responsive UI design & Resizable Layout",
+      "Ensures context-aware and high-quality code reviews",
     ],
-    github: "https://github.com/Chandranil16/Mynotes_app",
-  },
-  {
-    title: "Portfolio Website",
-    description: [
-      "Designed and developed my personal portfolio website.",
-    ],
-    tools: ["React.js", "Tailwind CSS"],
-    features: [
-      "Responsive UI design",
-      "Downloadable resume",
-      "Interactive navigation",
-      "Showcases personal details"
-    ],
-    github: "https://github.com/Chandranil16/Personal-Portfolio",
-  },
-  {
-    title: "Smart-ATS-Resume-Checker",
-    description: [
-      "Built smart, AI-powered ATS-Resume Analyzer for employers.",
-    ],
-    tools: ["Python", "Streamlit", "pypdf", "Gemini 2.5 Flash LLM"],
-    features: [
-      "Resume & Job-description upload",
-      "ATS score calculation",
-      "AI-powered Q&A",
-      "Resume optimization suggestions"
-    ],
-    github: "https://github.com/Chandranil16/Smart-ATS-Resume-Checker",
+    github: "https://github.com/Chandranil16/DevMate",
   },
   {
     title: "Nirogya-chatbot",
     description: [
       "Developed a full-stack AI-powered Ayurveda-based chatbot platform.",
     ],
-    tools: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "JWT", "Gemini 2.5 Pro", "few-shot prompting"],
+    tools: [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Gemini 2.5 Flash",
+      "few-shot prompting",
+    ],
     features: [
       "Conversational chatbot",
       "Personalized ayurvedic health advice such as causes, symptoms, treatments, remedies, diet, and lifestyle",
       "Protected routes & chat history",
-      "Responsive UI design"
+      "Responsive UI design",
     ],
     github: "https://github.com/Chandranil16/Nirogya-chatbot",
   },
   {
-    title: "DevMate",
-    description: [
-      "Built an intelligent, AI-powered instant code reviewer that analyzes any given code.",
+    title: "Mynotes_app",
+    description: ["Built a secure full-stack Notes App using MERN stack."],
+    tools: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "JWT",
+      "bcrypt",
     ],
-    tools: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "gemini-2.5-flash for few-shot prompting"],
     features: [
-      "AI-Powered Code Review",
-      "Code Improvements and Copy Feature",
-      "Built-in Code Editor",
-      "Responsive UI design & Resizable Layout",
-      "Ensures context-aware and high-quality code reviews"
+      "User authentication & registration",
+      "CRUD operations on Private notes",
+      "Clean, Mobile-responsive UI design",
     ],
-    github: "https://github.com/Chandranil16/DevMate",
-  },
-  {
-    title: "Innov8_ZennVita",
-    description: [
-      "Developed an AI-based containerized healthcare platform for doctors and patients to ensure fast, effective services. As part of Team 'Vacant Vectors,' I contributed to building frontend components.",
-    ],
-    tools: ["HTML", "CSS", "JavaScript"],
-    features: [
-      "User-friendly design",
-    ],
-    github: "https://github.com/Chandranil16/Innov8_ZennVita",
+    github: "https://github.com/Chandranil16/Mynotes_app",
   },
 ];
 
@@ -120,9 +102,7 @@ const Projects = () => {
               </ul>
             </div>
             <div className="mb-1">
-              <span className="font-semibold text-black text-sm">
-                Tools:
-              </span>
+              <span className="font-semibold text-black text-sm">Tools:</span>
               <ul className="list-disc list-inside text-gray-900 text-sm mt-0.5">
                 {project.tools.map((tool, i) => (
                   <li key={i}>{tool}</li>
@@ -145,7 +125,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               className="mt-auto inline-block text-blue-600 hover:underline font-semibold text-sm transition-colors duration-200"
             >
-            GitHub link &rarr;
+              GitHub link &rarr;
             </a>
           </div>
         ))}

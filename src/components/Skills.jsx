@@ -19,6 +19,7 @@ function Skills() {
         { name: "React.js", description: "Intermediate", level: 70 },
         { name: "Node.js", description: "Intermediate", level: 60 },
         { name: "Express.js", description: "Intermediate", level: 60 },
+        { name: "REST API", description: "Intermediate", level: 60 },
         { name: "Tailwind CSS", description: "Advanced", level: 80 },
       ],
     },
@@ -27,6 +28,9 @@ function Skills() {
       items: [
         { name: "Github", description: "Intermediate", level: 60 },
         { name: "Postman", description: "Intermediate", level: 60 },
+        { name: "MongoDB Compass", description: "Intermediate", level: 60 },
+        { name: "Google AI Studio", description: "Intermediate", level: 60 },
+
       ],
     },
     {
@@ -46,7 +50,9 @@ function Skills() {
       items: [
         { name: "Machine Learning", description: "Beginner", level: 30 },
         { name: "Deep Learning", description: "Beginner", level: 30 },
-        { name: "LLM", description: "Beginner", level: 30 },
+        { name: "Large Language Models", description: "Beginner", level: 30 },
+        { name: "Generative AI", description: "Beginner", level: 40 },
+        { name: "Prompt Engineering", description: "Intermediate", level: 60 },
       ],
     },
     {
