@@ -12,7 +12,7 @@ const projects = [
       "Tailwind CSS",
       "Node.js",
       "Express.js",
-      "gemini-2.5-flash for few-shot prompting",
+      "gemini-3.5-flash-lite for few-shot prompting",
     ],
     features: [
       "AI-Powered Code Review",
@@ -35,7 +35,7 @@ const projects = [
       "Express.js",
       "MongoDB",
       "JWT",
-      "Gemini 2.5 Flash",
+      "Gemini-3.5-Flash-lite",
       "few-shot prompting",
     ],
     features: [

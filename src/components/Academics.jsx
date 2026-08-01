@@ -20,10 +20,10 @@ const academicsData = [
   },
   {
     id: 3,
-    title: "B.Tech in CSE(Artificial Intelligence)",
+    title: "B.Tech in Computer Science and Engineering(Artificial Intelligence)",
     institution: "Budge Budge Institute of Technology, Kolkata",
     year: "2022-2026",
-    cgpa: "8.08",
+    cgpa: "8.15",
     icon: <FaGraduationCap className="text-indigo-600 text-2xl" />,
   },
 ];
@@ -57,16 +57,16 @@ function Academics() {
               </div>
               {/* Card */}
               <div className="ml-8 flex-1 bg-gray-300 rounded-xl shadow-lg border border-blue-100 p-5 transition-transform duration-300 hover:shadow-xl hover:shadow-blue-500/50 hover:-translate-y-2">
-                <h3 className="text-lg font-semibold flex items-center gap-2">
-                  {item.title}
-                  <span className="text-xs text-gray-900 font-bold">
+                <h3 className="text-lg font-semibold flex flex-wrap items-center gap-x-2 gap-y-1">
+                  <span className="break-words">{item.title}</span>
+                  <span className="text-xs text-gray-900 font-bold whitespace-nowrap">
                     ({item.year})
                   </span>
                 </h3>
                 <p className="text-sm text-gray-700 font-bold mb-1">{item.institution}</p>
                 {item.percentage && (
                   <p className="text-indigo-700 font-bold">
-                    Percentage:{" "}
+                    Marks:{" "}
                     <span className="font-mono">{item.percentage}</span>
                   </p>
                 )}

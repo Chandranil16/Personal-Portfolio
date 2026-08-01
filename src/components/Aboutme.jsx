@@ -30,7 +30,7 @@ function AboutMe() {
               Chandranil Adhikary
             </h3>
             <p className="text-sm sm:text-base md:text-lg font-semibold text-gray-800 mb-2 sm:mb-3">
-              Student || Full-Stack Developer
+              Fresher || Full-Stack Developer
             </p>
 
             {/* Contact Info */}
@@ -106,32 +106,16 @@ function AboutMe() {
         {/* About Content */}
         <div className="space-y-3 sm:space-y-4 text-gray-900 text-xs sm:text-sm md:text-base leading-relaxed">
           <p className="font-medium">
-            Hi, I am Chandranil Adhikary a Final-year B.Tech student pursuing
-            Computer Science & Engineering (Artificial Intelligence) with strong
-            hands-on experience in Full-Stack Web Development and AI-driven
-            application development. I am proficient in building scalable,
-            production-ready applications and has knowledge in programming
-            languages such as Java, JavaScript, Python, SQL, and modern
-            frameworks such as React, Tailwind CSS, Node.js, Express.js, and
-            MongoDB. Experienced in working with LLMs, Generative AI, and
-            integrating AI capabilities into real-world platforms. I am actively
-            interested in exploring Cloud Computing and DevOps, with practical
-            exposure to Google Cloud Platform (GCP), and version control using
-            Git & GitHub.
-          </p>
-
-          <p className="font-medium">
-            I am currently seeking internships and full-time opportunities to
-            apply my skills, gain industry exposure, and contribute to
-            innovative software development.
-          </p>
-
-          <p className="font-medium">
-            <strong className="text-indigo-700">What drives me:</strong> I'm
-            passionate about coding, hackathons, exploring cutting-edge
-            technologies, and building practical solutions that make a
-            difference. I approach each project with enthusiasm and dedication
-            to excellence.
+            B.Tech graduate with a strong foundation in programming and software
+            development. Proficient in modern technologies and languages such as
+            Java, JavaScript, SQL, React.js, Node.js, Express.js, MongoDB with
+            hands-on experience building scalable, real-world applications.
+            Passionate about solving problems, learning new technologies and
+            developing efficient software solutions. Leverage AI/ML and
+            technologies such as Large language models, Generative AI, by
+            integrating AI functionalities into software solutions for better
+            performance. Exposure to Cloud Computing platforms such as Google
+            Cloud, Microsoft Azure and Version control tools using Git & GitHub.
           </p>
         </div>
       </div>
